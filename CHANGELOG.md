@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 2.1.0 (2023-12-28)
+
+- Updated SDK constraint to support Dart's null-safety migration release and Dart versions above 3.
+- Updated the constraint of the `fire` method to avoid nullable arguments.
+
 ## Version 2.0.0 (2021-03-04)
 
 - Migrate to null safety.

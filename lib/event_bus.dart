@@ -57,7 +57,7 @@ class EventBus {
 
   /// Fires a new event on the event bus with the specified [event].
   ///
-  void fire(event) {
+  void fire(Object event) {
     streamController.add(event);
   }
 
